@@ -48,7 +48,7 @@ void requests(){
             }
            // }
     }else{
-            gotoxy(60,30); printf("\a--No Clients Connected--\a");
+            gotoxy(60,30); printf("\a---No Clients Connected---\a");
     }
 }
 

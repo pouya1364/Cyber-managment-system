@@ -24,7 +24,7 @@ int main(){
     handleAccept = (HANDLE) _beginthread(thd_accept_connections,0,0);
     handleMessages = (HANDLE) _beginthread(thd_program_messages,0,0);
 
-    while(1){  // The interface part
+    while(1){  // The interface part menu
       switch(getch()){
         case '1':
                 if(flag_menu==0)
