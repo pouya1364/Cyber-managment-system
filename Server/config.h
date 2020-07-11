@@ -48,7 +48,7 @@ struct cTime{
 }logIn,logOut,reqTime[MAX_SERVICES];
 
 
-//Service request Structure
+//Service request Structure  
 struct request{
     int num_request;
     //char service[MAX_SERVICES][STRLEN];
@@ -85,7 +85,7 @@ char *program_msg[STRLEN];
 char cyberName[50];
 
 extern "C" WINBASEAPI HWND WINAPI GetConsoleWindow (void);
-
+ 
 //Global variables
 
 
