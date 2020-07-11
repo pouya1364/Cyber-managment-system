@@ -6,7 +6,6 @@
 #include "sock.h"
 #include "interface.h"
 
-
 void show_time(void *param) {
     long i = 0;                      /* Loop counter              */
                      /* Holds initial clock time  */
@@ -15,7 +14,6 @@ void show_time(void *param) {
     int min=0,MIN=0,hrs=0,sec=0;
     int d=0,f=0;
     int pos=2;
-
     for(i = 0 ;  ; i++)
     {
      if(i%60==0)
@@ -97,6 +95,7 @@ int get_code(void)
    return (0);
 
 } //end of get_code()
+
 
 void intToString(int n, char str[])
 {
