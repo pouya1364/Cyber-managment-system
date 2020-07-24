@@ -87,8 +87,6 @@ char cyberName[50];
 extern "C" WINBASEAPI HWND WINAPI GetConsoleWindow (void);
  
 //Global variables
-
-
 //Function declarations
 void main_menu();  //Main interface of the system
 void gotoxy(int x,int y); //jump to coordinates
@@ -108,6 +106,7 @@ void getTime(int x[2]);
 void getDate(char sDate[13]);
 void newMessage(char msg[]);  //Increments the messages
 bool send_to_network(char *buffer,int client_id);
+
 //Server client related functions
 void start_socket();
 void start_server();

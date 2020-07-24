@@ -95,8 +95,6 @@ int get_code(void)
    return (0);
 
 } //end of get_code()
-
-
 void intToString(int n, char str[])
 {
   int i = 0;               /* Loop counter              */
