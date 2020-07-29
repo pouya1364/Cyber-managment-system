@@ -1,6 +1,7 @@
 /*
 *  service.h
 *  contains sever related functions setup
+*  Define menu and service managment
 */
 
  void services()
