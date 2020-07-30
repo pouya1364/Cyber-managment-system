@@ -61,7 +61,7 @@ void thd_receive_data(void *param){
 
                                     main_menu();
                                 }else{
-                                    send_to_network("0",j); //no member
+                                    send_to_network("0",j); //User is not a member
                                 }
 
                         }
@@ -85,7 +85,7 @@ void thd_receive_data(void *param){
                                 strcpy(sendData,"1:");
                                 send_to_network(sendData,j);
                                 newMessage(CMsgs);
-                            }else{ //the item is not available
+                            }else{ //the item/service is not available
                                 send_to_network("0",j);
 
                             }
@@ -154,7 +154,7 @@ void thd_accept_connections(void *param)
              c[i].cost = 0;
              c[i].connected=true;
 
-             //Create a new thread for the client
+             //Create a new thread for the  valid client
              HandleClients[i] =(HANDLE) _beginthread(thd_receive_data,0,&i);
              no_of_clients++;
         }
