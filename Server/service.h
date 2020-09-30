@@ -257,6 +257,6 @@ void edit_services()
     if(flag==0)
     {
         gotoxy(leftpos,30);printf("Sorry !! No record found");
-        gotoxy(leftpos,31);printf("Press any key......");
+        gotoxy(leftpos,31);printf("Press any key........");
     }
 }
