@@ -14,11 +14,11 @@ void main_menu(){
     char sDate[13];
     int cn = 7,i,count = 9;
     system("cls");
-    for(i=0;i<56;i++){
+    for(i=0;i<56;i++) {
         gotoPrint(90,i,"|");
     }
 
-    //reset nu of requests
+    //reset nu of requests 
     if(flag_reset==true){
          for(i=0;i<no_of_clients;i++){
                     c[i].r.num_request = 0;
@@ -90,7 +90,7 @@ HWND WINAPI GetConsoleWindowNT()
          return NULL;
     }
 
-    // call the undocumented function
+    //call the undocumented function
 
     return GetConsoleWindow();
 
