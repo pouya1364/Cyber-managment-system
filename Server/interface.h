@@ -18,7 +18,7 @@ void main_menu(){
         gotoPrint(90,i,"|");
     }
 
-    //reset nu of requests 
+    //reset nu of requests  
     if(flag_reset==true){
          for(i=0;i<no_of_clients;i++){
                     c[i].r.num_request = 0;
@@ -29,9 +29,9 @@ void main_menu(){
     fscanf(sInfo,"%s",cyberName);
     gotoPrint(35,1,cyberName);
     gotoxy(60,1); printf("Today:- %s",sDate);
-    gotoPrint(23,3,"------------------------------------");
+    gotoPrint(23,3,"-------------------------------------");
     gotoPrint(25,4,"1.Requests  2. Settings  3. Exit ");
-    gotoPrint(23,5,"------------------------------------");
+    gotoPrint(23,5,"-------------------------------------");
     gotoPrint(5,cn,"Clients");
     gotoPrint(20,cn,"Requests Pending");
     gotoPrint(40,cn,"Login Time");
