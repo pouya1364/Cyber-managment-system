@@ -6,7 +6,7 @@
 
 bool c_send_data(char *buffer){
     if(send( Socket, buffer, STRLEN, 0)== SOCKET_ERROR){
-        printf("could not send");
+        printf("could not send!");
     }
     return true;
 }
