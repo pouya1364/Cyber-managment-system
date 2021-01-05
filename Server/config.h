@@ -27,7 +27,7 @@
 #define ESC    37  //Escape key
 #define ALT_A     30
 
-//Threading Handles declaration
+//Threading Handles declaration..
 HANDLE handleAccept,handleMessages,clientHandle,HandleClients[NUM_CLIENTS];
 HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
 HANDLE hIn = GetStdHandle(STD_INPUT_HANDLE);
